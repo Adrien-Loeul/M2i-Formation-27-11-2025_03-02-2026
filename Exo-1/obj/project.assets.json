@@ -558,11 +558,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\M2I Formation\\.NET\\Exo-General-Ado_Net\\Exo-1\\Exo-1.csproj",
+      "projectUniqueName": "D:\\M2I Formation\\.NET\\Exo-General-ADO_Net\\Exo-1\\Exo-1.csproj",
       "projectName": "Exo-1",
-      "projectPath": "D:\\M2I Formation\\.NET\\Exo-General-Ado_Net\\Exo-1\\Exo-1.csproj",
+      "projectPath": "D:\\M2I Formation\\.NET\\Exo-General-ADO_Net\\Exo-1\\Exo-1.csproj",
       "packagesPath": "C:\\Users\\Administrateur\\.nuget\\packages\\",
-      "outputPath": "D:\\M2I Formation\\.NET\\Exo-General-Ado_Net\\Exo-1\\obj\\",
+      "outputPath": "D:\\M2I Formation\\.NET\\Exo-General-ADO_Net\\Exo-1\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

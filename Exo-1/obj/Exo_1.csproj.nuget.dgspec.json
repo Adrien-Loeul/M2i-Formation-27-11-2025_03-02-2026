@@ -1,15 +1,15 @@
 {
   "format": 1,
   "restore": {
-    "D:\\M2I Formation\\.NET\\Exo-General-ADO_Net\\Exo-1\\Exo-1.csproj": {}
+    "D:\\M2I Formation\\.NET\\Exo-General-ADO_Net\\Exo-1\\Exo_1.csproj": {}
   },
   "projects": {
-    "D:\\M2I Formation\\.NET\\Exo-General-ADO_Net\\Exo-1\\Exo-1.csproj": {
+    "D:\\M2I Formation\\.NET\\Exo-General-ADO_Net\\Exo-1\\Exo_1.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\M2I Formation\\.NET\\Exo-General-ADO_Net\\Exo-1\\Exo-1.csproj",
-        "projectName": "Exo-1",
-        "projectPath": "D:\\M2I Formation\\.NET\\Exo-General-ADO_Net\\Exo-1\\Exo-1.csproj",
+        "projectUniqueName": "D:\\M2I Formation\\.NET\\Exo-General-ADO_Net\\Exo-1\\Exo_1.csproj",
+        "projectName": "Exo_1",
+        "projectPath": "D:\\M2I Formation\\.NET\\Exo-General-ADO_Net\\Exo-1\\Exo_1.csproj",
         "packagesPath": "C:\\Users\\Administrateur\\.nuget\\packages\\",
         "outputPath": "D:\\M2I Formation\\.NET\\Exo-General-ADO_Net\\Exo-1\\obj\\",
         "projectStyle": "PackageReference",
