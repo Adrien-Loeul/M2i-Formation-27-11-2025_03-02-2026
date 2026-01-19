@@ -1,6 +1,7 @@
 ﻿using Exo_1.Classes;
 using MySql.Data.MySqlClient;
 using Org.BouncyCastle.Math.EC;
+using System.ComponentModel.Design;
 
 
 string connectionString = "Server=localhost;Database=exo1 ;User ID=root;Password=root";
@@ -281,4 +282,47 @@ void DeleteLivre()
     }
 }
 
-DeleteLivre();
+//DeleteLivre();
+
+
+while (true)
+{
+    Console.WriteLine("---- Menu ---");
+    Console.WriteLine("1 - Ajouter un livre");
+    Console.WriteLine("2 - Modifier un livre");
+    Console.WriteLine("3 - Suprimer un livre");
+    Console.WriteLine("4 - Voir un livre");
+    Console.WriteLine("5 - Voir tous les livres disponible");
+    Console.WriteLine("0 - Quitter");
+    string Menu = Console.ReadLine();
+
+    switch (Menu)
+    {
+        case "1":
+            Console.Write("Ajouté un livre : ");
+            AjouterLivre();
+            break;
+        case "2":
+            Console.Write("Modifier un livre : ");
+            UpdateLivre();
+            break;
+        case "3":
+            Console.Write("Suprimer un livre : ");
+            DeleteLivre();
+            break;
+        case "4":
+            Console.WriteLine("Voir un livre : ");
+            RechercherLivreParId();
+            break;
+        case "5":
+            Console.WriteLine("Voir tous les livres disponible");
+            AfficherTousLesLivres();
+            break;
+        case "0":
+            Console.WriteLine("Quitter");
+            return;
+        default:
+            Console.WriteLine("Choix Invalide\n");
+            break;
+    }
+}
