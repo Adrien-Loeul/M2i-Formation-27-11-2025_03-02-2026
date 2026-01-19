@@ -146,15 +146,15 @@ void RechercherLivreParId()
         if (reader.Read())
         {
             Livres p = new Livres(
-                    //recuperation de la valeur a la colone "id" dans une variable de type int
+
                     reader.GetInt32("id"),
-                    //recuperation de la valeur a la colone "nom" dans une variable de type String
+
                     reader.GetString("titre"),
-                    //recuperation de la valeur a la colone "prenom" dans une variable de type String
+
                     reader.GetString("auteur"),
-                    //recuperation de la valeur a la colone "age" dans une variable de type int
+
                     reader.GetInt32("anneePublication"),
-                    //recuperation de la valeur a la colone "email" dans une variable de type String
+
                     reader.GetString("isbn")
                     );
 

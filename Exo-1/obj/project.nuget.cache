@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "uLGHoV03lxk=",
+  "dgSpecHash": "eCqpUV5QHps=",
   "success": true,
-  "projectFilePath": "D:\\M2I Formation\\.NET\\Exo-General-Ado_Net\\Exo-1\\Exo-1.csproj",
+  "projectFilePath": "D:\\M2I Formation\\.NET\\Exo-General-ADO_Net\\Exo-1\\Exo-1.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Administrateur\\.nuget\\packages\\bouncycastle.cryptography\\2.6.2\\bouncycastle.cryptography.2.6.2.nupkg.sha512",
     "C:\\Users\\Administrateur\\.nuget\\packages\\google.protobuf\\3.32.0\\google.protobuf.3.32.0.nupkg.sha512",
